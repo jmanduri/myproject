@@ -1,0 +1,19 @@
+{
+  "env": {
+    "dev": {
+      "presets": ["es2015"],
+      "plugins":["transform-export-default-name"]
+    },
+
+
+    "production": {
+      "presets": ["es2015"],
+      "plugins":["transform-export-default-name"]
+    },
+
+    "test": {
+      "presets": ["es2015"],
+      "plugins":["transform-export-default-name"]
+    }
+  }
+}
